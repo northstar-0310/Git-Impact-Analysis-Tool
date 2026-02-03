@@ -1,4 +1,4 @@
-# Test Impact Analyzer
+# Git Impact Analyzer Tool
 
 A CLI tool that analyzes git commits in Playwright test repositories to identify all impacted tests. Built with Node.js and TypeScript.
 
