@@ -1,0 +1,28 @@
+{
+  "name": "test-impact-analyzer",
+  "version": "1.0.0",
+  "description": "CLI tool to analyze git commits and identify impacted Playwright tests",
+  "main": "dist/cli.js",
+  "bin": {
+    "test-impact-analyzer": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": ["playwright", "testing", "git", "impact-analysis"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "simple-git": "^3.22.0",
+    "ts-morph": "^21.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
