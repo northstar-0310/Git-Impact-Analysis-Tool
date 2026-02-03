@@ -14,7 +14,7 @@ A CLI tool that analyzes git commits in Playwright test repositories to identify
 
 ```bash
 # Clone or download this repository
-cd test-impact-analyzer
+cd git-impact-analysis-tool
 
 # Install dependencies
 npm install
@@ -34,7 +34,7 @@ node dist/cli.js --commit <commit-sha> --repo <path-to-repo>
 ### Using with npx (after publishing)
 
 ```bash
-npx test-impact-analyzer --commit <commit-sha> --repo <path-to-repo>
+npx git-impact-analysis-tool --commit <commit-sha> --repo <path-to-repo>
 ```
 
 ### Options
